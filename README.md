@@ -1,6 +1,6 @@
 # duppgrade
 
-Simple tool that makes updating [DappTools](https://github.com/dapphub/dapptools) to a specific commit hash easy.
+Update or revert to a specific [DappTools](https://github.com/dapphub/dapptools) commit with ease.
 
 ## Installing
 

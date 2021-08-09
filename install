@@ -21,6 +21,5 @@ echo -e ${GREEN}Updating dapptools to commit ${RED}${HASH}${GREEN}!${NC}
 nix-env -f https://github.com/dapphub/dapptools/archive/${HASH}.tar.gz -iA dapp hevm seth'
 
 BINARY="/usr/local/bin/duppgrade"
-
 echo "$DUPPGRADE" > $BINARY
 chmod +x $BINARY
