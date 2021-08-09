@@ -10,11 +10,11 @@ echo -e ${GREEN}Installing ${RED}duppgrade${GREEN} to ${RED}/usr/local/bin${GREE
 DUPPGRADE='#!/usr/bin/env bash
 set -e
 
-HASH=${1-master}
-
 GREEN="\033[0;32m"
 RED="\033[0;31m"
 NC="\033[0m"
+
+HASH=${1-master}
 
 echo -e ${GREEN}Updating dapptools to commit ${RED}${HASH}${GREEN}!${NC}
 
