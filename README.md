@@ -1,6 +1,6 @@
 # duppgrade
 
-Simple bash script to update [DappTools](https://github.com/dapphub/dapptools) to a specific commit hash.
+Simple tool that makes updating [DappTools](https://github.com/dapphub/dapptools) to a specific commit hash easy.
 
 ## Installing
 
