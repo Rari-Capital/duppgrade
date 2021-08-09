@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
+
+{
+
 set -e
+
+tmpfile=$(mktemp)
+trap 'rm $tmpfile' EXIT
+cat > "$tmpfile" << 'EOF'
 
 GREEN='\033[0;32m'
 RED='\033[0;31m'
@@ -24,3 +31,8 @@ BINARY="/usr/local/bin/duppgrade"
 
 echo "$DUPPGRADE" > $BINARY
 chmod +x $BINARY
+
+EOF
+bash $tmpfile
+
+}
