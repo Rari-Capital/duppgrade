@@ -1,2 +1,3 @@
 # duppgrade
-Simple bash script to update dapptools to a specific commit hash.
+
+Simple bash script to update DappTools to a specific commit hash.

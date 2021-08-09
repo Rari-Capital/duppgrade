@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+
+cp duppgrade /usr/local/bin
