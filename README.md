@@ -5,7 +5,7 @@ Simple tool that makes updating [DappTools](https://github.com/dapphub/dapptools
 ## Installing
 
 ```sh
-curl https://rari-capital.github.io/duppgrade/install | sh
+curl https://rari-capital.github.io/duppgrade/install | bash
 ```
 
 ## Using
