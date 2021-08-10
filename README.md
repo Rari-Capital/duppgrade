@@ -28,13 +28,13 @@ To install a specific **branch** (in this case `hevm/0.48.0`):
 duppgrade hevm/0.48.0
 ```
 
-To install a **fork's master branch** (in this case `transmissionsdev/dapptools`):
+To install a **fork's master branch** (in this case `transmissionsdev/dapptools`'s master branch):
 
 ```sh
 duppgrade transmissionsdev/dapptools
 ```
 
-To install a **specific commit on a fork** (in this case `transmissionsdev/dapptools`'s `e7594a6a8228bfb2494385e02d4e79d8fa2399ab` commit):
+To install a **specific commit from a fork** (in this case commit `e7594a6a8228bfb2494385e02d4e79d8fa2399ab` made in `transmissionsdev/dapptools`):
 
 ```sh
 duppgrade transmissionsdev/dapptools e7594a6a8228bfb2494385e02d4e79d8fa2399ab
