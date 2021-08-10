@@ -18,13 +18,13 @@ To install the **latest** commit:
 duppgrade
 ```
 
-To install a **specific** commit (in this case `213a3...05583`):
+To install a **specific** commit (in this case commit `213a3...05583`):
 
 ```sh
 duppgrade 213a3c5cc07b9210124afc06ca63926aee305583
 ```
 
-To install a specific **branch** (in this case the `control-nonce` branch):
+To install a specific **branch** (in this case the `control-nonce` branch's latest commit):
 
 ```sh
 duppgrade control-nonce
