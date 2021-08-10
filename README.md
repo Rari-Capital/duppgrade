@@ -18,13 +18,13 @@ To install the **latest** commit:
 duppgrade
 ```
 
-To install a **specific** commit (in this case `213a3c5cc07b9210124afc06ca63926aee305583`):
+To install a **specific** commit (in this case `213a3...05583`):
 
 ```sh
 duppgrade 213a3c5cc07b9210124afc06ca63926aee305583
 ```
 
-To install a specific **branch** (in this case `control-nonce`):
+To install a specific **branch** (in this case the `control-nonce` branch):
 
 ```sh
 duppgrade control-nonce
@@ -36,7 +36,7 @@ To install a **fork's master branch** (in this case `transmissionsdev/dapptools`
 duppgrade transmissionsdev/dapptools
 ```
 
-To install a **specific commit from a fork** (in this case commit `e7594a6a8228bfb2494385e02d4e79d8fa2399ab` made in `transmissionsdev/dapptools`):
+To install a **specific commit from a fork** (in this case commit `e7594...399ab` made in `transmissionsdev/dapptools`):
 
 ```sh
 duppgrade transmissionsdev/dapptools e7594a6a8228bfb2494385e02d4e79d8fa2399ab
