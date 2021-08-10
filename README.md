@@ -34,7 +34,7 @@ To install a **fork's master branch** (in this case `transmissionsdev/dapptools`
 duppgrade transmissionsdev/dapptools
 ```
 
-To install a specific **commit from a fork** (in this case `transmissionsdev/dapptools`'s `e7594a6a8228bfb2494385e02d4e79d8fa2399ab` commit):
+To install a **specific commit on a fork** (in this case `transmissionsdev/dapptools`'s `e7594a6a8228bfb2494385e02d4e79d8fa2399ab` commit):
 
 ```sh
 duppgrade transmissionsdev/dapptools e7594a6a8228bfb2494385e02d4e79d8fa2399ab
