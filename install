@@ -14,11 +14,18 @@ GREEN="\033[0;32m"
 RED="\033[0;31m"
 NC="\033[0m"
 
-HASH=${1-master}
+if [[ "$1" == */* ]]
+then
+    REPO=$1
+    COMMIT=${2-master}
+else
+    REPO="dapphub/dapptools"
+    COMMIT=${1-master}
+fi
 
-echo -e ${GREEN}Updating dapptools to commit ${RED}${HASH}${GREEN}!${NC}
+echo -e ${GREEN}Updating ${RED}dapptools${GREEN} to ${RED}${REPO}${GREEN} at commit ${RED}${COMMIT}${GREEN}!${NC}
 
-nix-env -f https://github.com/dapphub/dapptools/archive/${HASH}.tar.gz -iA dapp hevm seth'
+nix-env -f https://github.com/${REPO}/archive/${COMMIT}.tar.gz -iA dapp hevm seth'
 
 BINARY="/usr/local/bin/duppgrade"
 echo "$DUPPGRADE" > $BINARY
