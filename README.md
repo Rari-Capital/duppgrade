@@ -2,8 +2,6 @@
 
 Update or revert to a specific [DappTools](https://github.com/dapphub/dapptools) commit with ease.
 
-[![asciicast](https://asciinema.org/a/g15DuyjNTZIFktYuc4AcMp1rT.svg)](https://asciinema.org/a/g15DuyjNTZIFktYuc4AcMp1rT)
-
 ## Installing
 
 ```sh
