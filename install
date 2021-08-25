@@ -25,7 +25,7 @@ fi
 
 echo -e ${GREEN}Updating ${RED}dapptools${GREEN} to ${RED}${REPO}${GREEN} at commit ${RED}${COMMIT}${GREEN}!${NC}
 
-nix-env -f https://github.com/${REPO}/archive/${COMMIT}.tar.gz -iA dapp hevm seth'
+nix-env -f https://github.com/${REPO}/archive/${COMMIT}.tar.gz -iA dapp hevm seth ethsign'
 
 BINARY="/usr/local/bin/duppgrade"
 echo "$DUPPGRADE" > $BINARY
