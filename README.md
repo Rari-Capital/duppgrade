@@ -28,14 +28,14 @@ To install a specific **branch** (in this case the `control-nonce` branch's late
 duppgrade control-nonce
 ```
 
-To install a **fork's master branch** (in this case `transmissionsdev/dapptools`'s master branch):
+To install a **fork's master branch** (in this case `transmissions11/dapptools`'s master branch):
 
 ```sh
-duppgrade transmissionsdev/dapptools
+duppgrade transmissions11/dapptools
 ```
 
-To install a **specific commit from a fork** (in this case commit `e7594...399ab` made in `transmissionsdev/dapptools`):
+To install a **specific commit from a fork** (in this case commit `e7594...399ab` made in `transmissions11/dapptools`):
 
 ```sh
-duppgrade transmissionsdev/dapptools e7594a6a8228bfb2494385e02d4e79d8fa2399ab
+duppgrade transmissions11/dapptools e7594a6a8228bfb2494385e02d4e79d8fa2399ab
 ```
