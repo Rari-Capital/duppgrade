@@ -16,19 +16,25 @@ To install the **latest** commit:
 duppgrade
 ```
 
+To install a specific **tag** (in this case the `hevm/0.48.0` tag):
+
+```sh
+duppgrade hevm/0.48.0
+```
+
 To install a **specific** commit (in this case commit `213a3...05583`):
 
 ```sh
 duppgrade 213a3c5cc07b9210124afc06ca63926aee305583
 ```
 
-To install a specific **branch** (in this case the `control-nonce` branch's latest commit):
+To install a specific **branch** (in this case the `london` branch's latest commit):
 
 ```sh
-duppgrade control-nonce
+duppgrade london
 ```
 
-To install a **fork's master branch** (in this case `transmissions11/dapptools`'s master branch):
+To install a **fork's main branch** (in this case `transmissions11/dapptools`'s main branch):
 
 ```sh
 duppgrade transmissions11/dapptools
