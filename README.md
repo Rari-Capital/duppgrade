@@ -40,13 +40,13 @@ To install a **fork's main branch** (in this case `transmissions11/dapptools`'s 
 duppgrade transmissions11/dapptools
 ```
 
-To install a **specific commit from a fork** (in this case commit `e7594...399ab` made in `transmissions11/dapptools`):
+To install a **specific commit in a fork** (in this case commit `e7594...399ab` made in `transmissions11/dapptools`):
 
 ```sh
 duppgrade transmissions11/dapptools e7594a6a8228bfb2494385e02d4e79d8fa2399ab
 ```
 
-To install a **specific branch from a fork**  (in this case the `patch-10` branch's latest commit in `transmissions11/dapptools`):
+To install a **specific branch in a fork**  (in this case the `patch-10` branch's latest commit in `transmissions11/dapptools`):
 
 ```sh
 duppgrade transmissions11/dapptools patch-10
